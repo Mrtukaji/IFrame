@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFRAMES</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+        h1, p, td {
+            text-align: center;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>IFRAMES</h1>
+    <table width="100%">
+        <tr>
+            <td width="30%">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+                            <p><a href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="a">YouTube</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Example.svg" alt="Example Logo">
+                            <p><a href="https://www.example.com/" target="a">Example.com</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Giphy-logo.svg" alt="Giphy Logo">
+                            <p><a href="https://giphy.com/gifs/funny-cat-3oriO0OEd9QIDdllqo" target="a">Giphy</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="70%">
+                <iframe id="iframe" name="a" height="600px" width="100%" title="iframe"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
