@@ -3,52 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IFRAMES</title>
-    <style>
-        body {
-            background-color: cornflowerblue;
-        }
-        h1, p, td {
-            text-align: center;
-        }
-        img {
-            width: 150px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
+    <title>Smooth Iframe Site</title>
+    <link rel="stylesheet" href="../Assets/styles.css">
 </head>
 <body>
-    <h1>IFRAMES</h1>
-    <table width="100%">
-        <tr>
-            <td width="30%">
-                <table width="100%">
-                    <tr>
-                        <td>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
-                            <p><a href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="a">YouTube</a></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Example.svg" alt="Example Logo">
-                            <p><a href="https://www.example.com/" target="a">Example.com</a></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Giphy-logo.svg" alt="Giphy Logo">
-                            <p><a href="https://giphy.com/gifs/funny-cat-3oriO0OEd9QIDdllqo" target="a">Giphy</a></p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td width="70%">
-                <iframe id="iframe" name="a" height="600px" width="100%" title="iframe"></iframe>
-            </td>
-        </tr>
-    </table>
+    <h1>Linked Websites <br>Using Iframe</h1>
+    <div class="buttons">
+        <a href="#iframe1" class="btn" title="wikipedia"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">Google - A powerful search engine</a>
+        <a href="#iframe2" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png">Wikipedia - Free online encyclopedia</a>
+        <a href="#iframe3" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg">YouTube - Video sharing platform</a>
+        <a href="#iframe4" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.svg">Twitter (X) - Social media platform</a>
+        <a href="#iframe5" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">Instagram - Photo & video sharing</a>
+    </div>
+
+    <div id="iframe1" class="iframe-container">
+        <div class="iframe-header">
+            <span>Google</span>
+            <a href="#" class="close-btn">X</a>
+        </div>
+        <iframe src="https://www.google.com/webhp?igu=1"></iframe>
+    </div>
+
+    <div id="iframe2" class="iframe-container">
+        <div class="iframe-header">
+            <span>Wikipedia</span>
+            <a href="#" class="close-btn">X</a>
+        </div>
+        <iframe src="https://www.wikipedia.org"></iframe>
+    </div>
+
+    <div id="iframe3" class="iframe-container">
+        <div class="iframe-header">
+            <span>YouTube</span>
+            <a href="#" class="close-btn">X</a>
+        </div>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+    </div>
+
+    <div id="iframe4" class="iframe-container">
+        <div class="iframe-header">
+            <span>Twitter (X)</span>
+            <a href="#" class="close-btn">X</a>
+        </div>
+        <iframe src="https://nitter.net/Twitter"></iframe>
+    </div>
+
+    <div id="iframe5" class="iframe-container">
+        <div class="iframe-header">
+            <span>Instagram</span>
+            <a href="#" class="close-btn">X</a>
+        </div>
+        <iframe src="https://www.instagram.com/p/Cxyz12345/embed"></iframe>
+    </div>
 </body>
 </html>
