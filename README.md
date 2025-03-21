@@ -1,10 +1,11 @@
 # Iframe Project
-
 A simple project demonstrating the use of HTML `<iframe>` to embed external content into a webpage.
+
+##Disclaimer
+-This project is solely created as a requirement for our professor and is not intended for commercial use whatsoever.
 
 ## Features
 - Embeds external websites or resources using `<iframe>`.
-- Supports customization of width, height, and borders.
 
 Language Used
 HTML
